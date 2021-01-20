@@ -99,7 +99,7 @@ This data was generated for detection and quantification of circRNAs, therefore 
 
 Comments:
 
-The samples were run in two batches, the quality of the first one is not as good as the second one. One sample of the first batch has DNA contamination. 
+The samples were run in two batches, the quality of the first one is not as good as the second one. One sample of the first batch has DNA contamination. Additionally the first run used a high-output kit and the second one a mid-output one.
 
 
 ________________________________________
@@ -112,6 +112,8 @@ GEO: GSE127468
 SRA: SRP187079
 
 Description:
+
+CD4+ T cells from 3 different donors were infected with HIV‐1NL4‐3 or Mock and samples were collected at 4 different timepoints (3,7,9,14 days post infection) (24 samples in total). It is important to mention that on day 5 after infectio ART (three‐drug) was initiated to achieve a latent state at day 14.
 
 Comments:
 
@@ -126,7 +128,11 @@ SRA: SRP075608
 
 Description:
 
+The dataset consisted of four conditions (LI: latently; UI: uninfected; LIA: latently reactivated; UIA: uninfected reactivated) from four healthy donors.
+
 Comments:
+
+Analyzing the samples I found that the donors were 3 woman and 1 men. Transposable Element analysis was already submitted in Miguel's latency paper.
 
 ________________________________________
 
@@ -134,7 +140,11 @@ ________________________________________
 
 Description:
 
+CD4+ T cells from HIV+ donors (4) were reactivated with anti-CD3 and anti-CD28 in the presence of ART (total 8 samples)
+
 Comments:
+
+The analysis of these samples is already submitted in Miguel's latency paper
 
 ________________________________________
 
@@ -144,6 +154,27 @@ Dobrowolski, Curtis et al. 2019. **Entry of Polarized Effector Cells into Quiesc
 SRA: SRP145508
 
 Description:
+
+Samples come from an ex vivo method, called QUECEL (quiescent effector cell latency), that mimics this process efficiently and allows production of large numbers of latently infected CD4+ T cells. Naïve CD4+ T cells were polarized into the four major T cell subsets (Th1, Th2, Th17, and Treg) and subsequently infected with a single-round reporter virus which expressed GFP/CD8a.  The infected cells were purified and coerced into quiescence producing a homogeneous population of latently infected cells. This method is a refinement of the model of Bosque and Planelles. After achieving latency state cells were reactivated with TCR. 4 different conditions were sequenced; uninfected, expanding, quiescent and reactivated for each T cell subset.
+
+| Polarized Cells | State | Reps |
+|:-:|:-:|:-:|
+| Th17 | Mock | 1 |
+| Th17 | Expanding | 2 |
+| Th17 | Quiescent | 2 |
+| Th17 | Reactivated | 2 |
+| Th1 | Mock | 1 |
+| Th1 | Expanding | 1 |
+| Th1 | Quiescent | 1 |
+| Th1 | Reactivated | 1 |
+| Th2 | Mock | 1 |
+| Th2 | Expanding | 1 |
+| Th2 | Quiescent | 1 |
+| Th2 | Reactivated | 1 |
+| Treg | Mock | 1 |
+| Treg | Expanding | 1 |
+| Treg | Quiescent | 5 |
+| Treg | Reactivated | 1 |
 
 Comments:
 
@@ -158,6 +189,8 @@ SRA: SRP245436
 
 Description:
 
+Different CD4+ T cells subsets from ART donors(3) and elite controllers (12). The subset collection comprise central memory (CM), effector memory (EM), naive (N),  effector memory T cells re-expresses CD45RA (TEMRA) and total CD4+ cells. (75 samples in total)
+
 Comments:
 
 ________________________________________
@@ -170,6 +203,8 @@ GEO: GSE83482
 SRA: SRP076719
 
 Description:
+
+83 samples, all from elite controllers, from 14 donors (1 has two timepints 2010 and 2015) from either PBMC (60) or LympNode (22) divided in CD4+ T cells subtypes. Naive, central memory, effector memory,transitional memory subset were selected and sequenced from PBMC from the 14 donors and naive, Tfh, from germinal center and from non germinal center, effector memory and with different levels of CMPD1
 
 Comments:
 
